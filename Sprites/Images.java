@@ -1,4 +1,4 @@
-package main;
+package Sprites;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,8 +1,10 @@
 package main;
 
 
-import java.awt.*;
+import Sprites.Images;
+
 import javax.swing.*;
+import java.awt.*;
 
 public class Application extends JFrame {
 
