@@ -1,4 +1,4 @@
-package learning;
+package main;
 
 
 import java.awt.*;
@@ -17,7 +17,6 @@ public class Application extends JFrame {
     private void initUI() {
 
         add(new Board());
-
         setSize(250, 250);
 
         setIconImage(img.plob());

@@ -1,15 +1,16 @@
-package learning;
+package main;
 
 
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
-import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 public class Board extends JPanel {
 
     private Image bardejov;
+
+    private Image poop;
 
     public Board() {
 
@@ -17,23 +18,19 @@ public class Board extends JPanel {
     }
 
     private void initBoard() {
+        Images img = new Images();
 
-        loadImage();
+        bardejov = img.bochita();
+        poop = img.suri();
 
-        int w = bardejov.getWidth(this);
-        int h =  bardejov.getHeight(this);
-        setPreferredSize(new Dimension(w, h));
+        setPreferredSize(new Dimension(300, 300));
     }
 
-    private void loadImage() {
-
-        ImageIcon ii = new ImageIcon("learning/images/IMG_2659.png");
-        bardejov = ii.getImage();
-    }
 
     @Override
     public void paintComponent(Graphics g) {
 
         g.drawImage(bardejov, 0, 0, null);
+        g.drawImage(poop, 50, 50, null);
     }
 }
