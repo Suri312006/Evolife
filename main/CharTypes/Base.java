@@ -3,6 +3,7 @@ public class Base {
     private double health;
     private double AD;
     private double AP;
+    private double mana;
     private double armor;
     private boolean alive;
 
@@ -10,13 +11,15 @@ public class Base {
         this.health = 100;
         this.AD = 5;
         this.AP = 15;
+        this.mana = 15;
         this.armor = 20;
         this.alive = true;
     }
-    public Base(double health, double AD, double AP, double armor, boolean alive){
+    public Base(double health, double AD, double AP,double mana, double armor, boolean alive){
         this.health = health;
         this.AD = AD;
         this.AP = AP;
+        this.mana = mana;
         this.armor = armor;
         this.alive = alive;
     }
