@@ -39,8 +39,6 @@ public class Base {
     }
 
     //mutator methods
-
-
     public void hit(double damage){
         health -= damage*(1-(armor/100));
     }
@@ -48,6 +46,8 @@ public class Base {
         alive = false;
     }
 
+
+    //game methods
     public void basicAttack( Base other){
         other.hit(this.AD);
     }
