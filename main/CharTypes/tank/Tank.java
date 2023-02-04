@@ -1,4 +1,5 @@
 package main.CharTypes.tank;
 
-public class Tank {
+import main.CharTypes.Base;
+public class Tank extends Base{
 }

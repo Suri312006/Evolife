@@ -1,4 +1,6 @@
 package main.CharTypes.tank;
 
-public class Healing {
+import main.CharTypes.Base;
+public class Healing extends Base{
+
 }
