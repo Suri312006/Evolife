@@ -5,8 +5,10 @@ import main.CharTypes.damage.Damage;
 
 public class Mage extends Damage {
 
-    public Mage(double health, double AD, double AP, double mana, double armor, boolean alive) {
-        super(health, AD, AP, mana, armor, alive);
+    //high AP
+    //modified mana points
+    public Mage(double health, double AD, double AP, double mana, boolean alive) {
+        super(health, AD, AP, mana, alive);
     }
 
     public void basicAttack(Base other){
