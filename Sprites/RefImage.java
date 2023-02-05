@@ -1,4 +1,4 @@
-package Sprites.references;
+package Sprites;
 
 import javax.swing.*;
 import java.awt.*;

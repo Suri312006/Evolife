@@ -21,7 +21,7 @@ public class SpaceShip {
 
     private void loadImage() {
 
-        ImageIcon ii = new ImageIcon("learning/images/suri.png");
+        ImageIcon ii = new ImageIcon("Sprites/PlaceholderSprites/suri.png");
         image = ii.getImage();
 
         w = image.getWidth(null);
