@@ -1,6 +1,6 @@
-package main.CharTypes.tank;
+package main.Characters.tank;
 
-import main.CharTypes.Base;
+import main.Characters.Base;
 public class Tank extends Base{
     private double armor;
     private boolean stall;

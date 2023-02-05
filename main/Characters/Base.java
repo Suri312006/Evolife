@@ -1,4 +1,4 @@
-package main.CharTypes;
+package main.Characters;
 public class Base {
     private double health;
     private double AD;

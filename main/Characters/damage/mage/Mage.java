@@ -1,7 +1,7 @@
-package main.CharTypes.damage.Mage;
+package main.Characters.damage.mage;
 
-import main.CharTypes.Base;
-import main.CharTypes.damage.Damage;
+import main.Characters.Base;
+import main.Characters.damage.Damage;
 
 public class Mage extends Damage {
 

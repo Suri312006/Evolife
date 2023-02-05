@@ -1,7 +1,7 @@
-package main.CharTypes.damage.assassin;
+package main.Characters.damage.assassin;
 
-import main.CharTypes.Base;
-import main.CharTypes.damage.Damage;
+import main.Characters.Base;
+import main.Characters.damage.Damage;
 
 public class Assasin extends Damage {
     //high AD

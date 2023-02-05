@@ -1,6 +1,6 @@
-package main.CharTypes.damage;
+package main.Characters.damage;
 
-import main.CharTypes.Base;
+import main.Characters.Base;
 
 public class Damage extends Base {
 
